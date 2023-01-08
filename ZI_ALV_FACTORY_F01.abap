@@ -22,11 +22,6 @@ FORM f_show_main_alv.
         lo_functions     TYPE REF TO cl_salv_functions,
         lo_handle_event  TYPE REF TO lcl_handle_events.
 
-*&---------------------------------------------------------------------*
-*& Field-Symbols                                                       *
-*&---------------------------------------------------------------------*
-  FIELD-SYMBOLS: <fs_output> LIKE LINE OF gt_output.
-
   "Select -> General Data in Customer Master
   SELECT *
   FROM kna1
